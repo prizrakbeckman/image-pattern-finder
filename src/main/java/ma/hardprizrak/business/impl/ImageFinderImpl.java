@@ -51,7 +51,10 @@ public class ImageFinderImpl implements ImageFinder {
         return result;
     }
 
-    class Pair {
+    
+}
+
+class Pair {
         int indiceX;
         int indiceY;
 
@@ -73,6 +76,5 @@ public class ImageFinderImpl implements ImageFinder {
             return Objects.hash(this.indiceX, this.indiceY);
         }
     }
-}
 
 
